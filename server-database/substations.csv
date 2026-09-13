@@ -1,0 +1,6 @@
+name,latitude,longitude,capacity_kw,current_load_kw,status
+Substation Alpha,12.9698,79.1559,1000.00,450.00,ONLINE
+Substation Beta,12.9715,79.1600,800.00,750.00,ONLINE
+Substation Gamma,12.9650,79.1520,1200.00,300.00,ONLINE
+Substation Delta,12.9620,79.1480,950.00,410.00,ONLINE
+Substation Epsilon,12.9750,79.1650,1100.00,620.00,ONLINE

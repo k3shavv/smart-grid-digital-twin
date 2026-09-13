@@ -11,8 +11,11 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "cors": "^2.8.6",
+    "csv-parser": "^3.2.1",
     "express": "^5.2.1",
+    "ioredis": "^6.0.0",
     "mysql": "^2.18.1",
-    "redis": "^6.1.0"
+    "redis": "^6.2.1"
   }
 }
