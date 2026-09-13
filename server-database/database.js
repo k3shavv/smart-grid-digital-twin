@@ -1,11 +1,12 @@
+require('dotenv').config();
 const mysql = require('mysql');
 
-// Configure the database connection details
+// Configure the database connection details from environment variables
 const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',      // Default MySQL username
-  password: 'Champion',      // Leave blank if using XAMPP, or type your MySQL password
-  database: 'smart_grid'
+    host: process.env.DB_HOST || 'localhost',
+    user: process.env.DB_USER || 'root',
+    password: process.env.DB_PASSWORD || '',
+    database: process.env.DB_NAME || 'smart_grid'
 });
 
 // Establish the connection
